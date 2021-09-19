@@ -1,11 +1,10 @@
-// Create an array that holds info for table of constants
-const links = [
-    ["Week 01 Notes", "week1/index.html"],
-    ["Week 02 Notes", "#"]
-  ]
-
 // Create function that uses links array to create table of contants
-function createTableOfContents(links){
+function createTableOfContents(){
+    // Create an array that holds info for table of constants
+    const links = [
+        ["Week 01 Notes", "week1/index.html"],
+        ["Week 02 Notes", "#"]
+    ]
 
     // Access ol on index.html
     var toc = document.getElementById("toc");
@@ -30,4 +29,4 @@ function createTableOfContents(links){
 }
 
 // Call TOC function
-createTableOfContents(links);
+createTableOfContents();

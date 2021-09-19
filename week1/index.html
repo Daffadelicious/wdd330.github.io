@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>WDD 330 | Week 01 Story Editor</title>
+</head>
+
+<body>
+    <h1>Week 01 Exercise</h1>
+    <hr>
+    <div id="wrapper">
+        <section id="left">
+            <h2>Story Editor</h2>
+            <span>Story Name:</span>
+            <input id="name_input" type="text">
+            <section id="story_buttons">
+                <button onclick="loadStory()">Find and edit it</button>
+                <button onclick="saveStory()">Save it</button>
+                <button onclick="displayStory()">Display it</button>
+            </section>
+            <textarea id="story_editor" cols="30" rows="10" placeholder="Write your story here."></textarea>
+        </section>
+        <section id="story_display"></section>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
