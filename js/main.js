@@ -6,7 +6,7 @@ function createTableOfContents(){
         ["Week 02 Notes", "#"],
         ["Week 03 Notes", "week3/index.html"],
         ["Week 04 Notes", "week4/index.html"],
-        ["Week 05 Notes", "#"],
+        ["Week 05 Notes", "week5/index.html"],
         ["Week 06 Notes", "#"],  
     ]
 

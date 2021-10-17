@@ -29,7 +29,7 @@ h2{
     margin-top: 10px;
 }
 
-ol{
+ul{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -37,7 +37,7 @@ ol{
     margin-top: 60px;
 }
 
-li{
+ul li{
     padding: 20px;
     border: solid #f2e9e4 2px;
     border-radius: 15px;
@@ -46,12 +46,12 @@ li{
     transition: transform 200ms ease-in-out 25ms;
 }
 
-li:hover{
+ul li:hover{
     transform: scale(1.1);
     background-color: #4a4e69;
 }
 
-li a{
+ul li a{
     text-decoration: none;
     color: #f2e9e4;
 }
