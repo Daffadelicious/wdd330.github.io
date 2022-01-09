@@ -3,11 +3,11 @@ function createTableOfContents(){
     // Create an array that holds info for table of constants
     const links = [
         ["Week 01 Notes", "week1/index.html"],
-        ["Week 02 Notes", "#"],
-        ["Week 03 Notes", "week3/index.html"],
-        ["Week 04 Notes", "week4/index.html"],
-        ["Week 05 Notes", "week5/index.html"],
-        ["Week 06 Notes", "#"],  
+        // ["Week 02 Notes", "#"],
+        // ["Week 03 Notes", "week3/index.html"],
+        // ["Week 04 Notes", "week4/index.html"],
+        // ["Week 05 Notes", "week5/index.html"],
+        // ["Week 06 Notes", "#"],  
     ]
 
     // Access ol on index.html
