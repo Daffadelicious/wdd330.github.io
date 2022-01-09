@@ -1,3 +1,4 @@
+// This function loads a previously created story by its name
 function loadStory(){
     // Get story's name from user
     var storyName = document.getElementById("name_input").value;
@@ -7,6 +8,7 @@ function loadStory(){
     document.getElementById("story_editor").value = storyHTML;
 }
 
+// This function saves a story by its name
 function saveStory(){
     // Get story's name from user
     var storyName = document.getElementById("name_input").value;
@@ -16,6 +18,7 @@ function saveStory(){
     localStorage.setItem(storyName, storyHTML);
 }
 
+// This function displays a story to the screen
 function displayStory(){
     // Get story's text from user
     var storyHTML = document.getElementById("story_editor").value;
